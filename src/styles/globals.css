@@ -3,25 +3,34 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
+  --brandcolor-hex: #623410;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
-
+@font-face {
+  font-family: "Cormorant SC";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/CormorantSC-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/Lato-Regular.ttf") format("truetype");
+}
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
+    --heading-font: "corm";
   }
 }
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: #1a222a;
+  font-family: "Lato";
+  max-width: 1366px;
 }
