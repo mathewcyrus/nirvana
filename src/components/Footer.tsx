@@ -32,7 +32,7 @@ export default function Footer() {
           </p>
           <div className=" flex flex-col items-center">
             <Image
-              src="/images/founder.jpg"
+              src="https://firebasestorage.googleapis.com/v0/b/portifolio-mathews.appspot.com/o/note_studios%2Fmichael-dam-mEZ3PoFGs_k-unsplash.jpg?alt=media&token=c63f5e59-dfed-4836-8e10-3028a85eedfd"
               alt="founder image"
               width={80}
               height={80}

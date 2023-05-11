@@ -5,7 +5,7 @@ export default function Testimonial() {
     <div className=" border flex flex-col  sm:w-56 lg:w-96 text-white  sm:h-72  lg:h-36 rounded-2xl border-secondaryColor  p-2">
       <div className=" sm:flex sm:items-center lg:items-start sm:flex-col lg:flex lg:flex-row gap-3">
         <Image
-          src="/images/christina.jpg"
+          src="https://firebasestorage.googleapis.com/v0/b/portifolio-mathews.appspot.com/o/nirvana%2Fchristina-wocintechchat-com-0Zx1bDv5BNY-unsplash.jpg?alt=media&token=c7aab8ee-613c-430e-bb92-25840783c940"
           width={100}
           height={100}
           alt="jane doe"

@@ -69,7 +69,7 @@ export default function Home() {
             backgroundImage:
               "url(https://firebasestorage.googleapis.com/v0/b/portifolio-mathews.appspot.com/o/nirvana%2FMy%20project.png?alt=media&token=61215f63-1f60-4098-943e-9acd775a49b3)",
           }}>
-          <div className="  lg:h-1/2 sm:h-3/4 sm:w-full lg:w-1/2 flex flex-col items-center lg:gap-6 sm:gap-12 justify-center text-white">
+          <div className="  lg:h-1/2 sm:h-3/4 sm:w-full lg:w-3/4 flex flex-col items-center lg:gap-6 sm:gap-12 justify-center text-white">
             <h1 className=" font-corm sm:text-xl  lg:text-4xl tracking-wider bg-gradient-to-l bg-clip-text ">
               Maximize Your Online Precense
             </h1>
